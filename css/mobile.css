@@ -1,0 +1,97 @@
+.nav{
+    overflow: hidden;
+    background-color: #023047;
+    position: relative; 
+    display:flex;
+}
+.nav #myLinks{
+    display:none;
+}
+.nav a{
+    color:white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+.nav a.icon {
+    background: #023047;
+    position: absolute;
+    
+    right: 0;
+    top: 0;
+}
+.active {
+    background-color: #023047;
+    color: white;
+}
+
+.icon {
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+div.footer{
+    background-color: #023047;
+}
+div.footer > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #023047;
+  }
+div.footer > ul > li > a {
+    display: block;
+    color: white;
+
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div.banner{
+    width:100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+}
+div.banner#index{
+    background-image: url("../images/20230829_111351.jpg");
+}
+div.banner > h1{
+    background-color: rgb(117, 117, 175);
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: helvetica, arial, sans-serif;
+}
