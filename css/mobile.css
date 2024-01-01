@@ -36,18 +36,13 @@
     height: 5px;
     background-color: white;
     margin: 6px 0;
-    transition: 0.4s;
 }
-  
-.change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-}
-  
-.change .bar2 {opacity: 0;}
-  
-.change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-}
+.flex-grid {
+    display: flex;
+  }
+  .col {
+    flex: 1;
+  }
 
 div.footer{
     background-color: #023047;
@@ -81,8 +76,11 @@ div.banner{
     justify-content: center; 
     align-items: center;
 }
-div.banner#index{
+div.banner #index{
     background-image: url("../images/20230829_111351.jpg");
+}
+div.banner #courses{
+    background-image: url("../images/Cantor Atrium 4.jpg");
 }
 div.banner > h1{
     background-color: rgb(117, 117, 175);

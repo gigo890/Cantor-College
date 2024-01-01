@@ -8,13 +8,13 @@
 </head>
 <body>
     <?php include("header.php")?>
-    <div class = "container">
-        <div class = "banner" id = "index">
-            <h1>CANTOR COLLEGE</h1>
-        </div>
+    <div class = "banner" id = "index">
+        <h1>CANTOR COLLEGE</h1>
     </div>
-    <div class="flex-container">
-
+    <div class="flex-grid">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
     </div>
     <footer>
         <?php include("footer.php")?>

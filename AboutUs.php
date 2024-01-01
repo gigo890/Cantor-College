@@ -7,13 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include("header.php")?>
-    <div class = "banner" id = "courses">
-        <h1>COURSES</h1>
-    </div>
-    <footer>
-        <?php include("footer.php")?>
-    </footer>
-    <script src="js/main.js"></script>
+    
 </body>
 </html>
