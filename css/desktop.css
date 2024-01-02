@@ -33,12 +33,25 @@
   text-decoration: none;
 }
 
-.icon{
+.menu{
   display: none;
 }
-.nav > .active{
+.nav > .home{
   display:none;
 }
 #myLinks a:hover {
   background-color: #022030;
+}
+.container .info{
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  gap: 15px;
+}
+.info .text{
+  width:60%;
+  border-right: #023047 solid 2px
+}
+.info .list{
+  width: 40%;
 }

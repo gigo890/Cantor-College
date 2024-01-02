@@ -22,6 +22,10 @@
             <div class="pageimg" id="facilities"></div>
             <h1>Facilities</h1>
         </a>
+        <a class="page" href="about-us.php">
+            <div class="pageimg" id="about-us"></div>
+            <h1>About Us</h1>
+        </a>
     </div>
     </div>
     

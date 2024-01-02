@@ -9,14 +9,14 @@
 .nav #myLinks{
     display:none;
 }
-.nav a{
+.nav a,div.menu{
     color:white;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
-.nav a.icon {
+.nav .menu {
     background: #023047;
     position: absolute;
     
@@ -25,13 +25,13 @@
 
     margin-top: 18px;
 }
-.active {
+.home {
     background-color: #023047;
     color: white;
 }
 
 /* MENU ICON */
-.icon {
+.menu {
     display: inline-block;
     cursor: pointer;
     vertical-align: middle;
@@ -61,13 +61,19 @@
     text-align: left;
     padding: 14px 16px;
     text-decoration: none;
+    text-align: center;
 }
 div.footer > h1{
     color: white;
+    font-size: 24px;
 }
 div.footer > p{
     color: white;
     padding: 14px, 2px;
+    margin-left: 10px;
+}
+.footer{
+    text-align: center;
 }
 
 /* GRID */
@@ -90,8 +96,8 @@ div.grid > a.page{
     justify-content: center;
     align-items: center;
 
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     margin: 5px;
     padding: 20px;
     color: white;
@@ -102,6 +108,7 @@ div.grid > a.page{
     border-width: 5px;
 
     text-decoration: none;
+    text-align:center;
 }
 div.grid > a.page > .pageimg{
     background-repeat: no-repeat;
@@ -112,13 +119,22 @@ div.grid > a.page > .pageimg{
     aspect-ratio: 1;
 }
 .pageimg#courses{
-    background-image: url("../images/cantor-lecture-theatre-3.jpg");
+    background-image: url("../images/Cantor-atrium-4.jpg");
 }
 .pageimg#facilities{
     background-image: url("../images/Cantor-atrium-4.jpg");
 }
 .pageimg#about-us{
-
+    background-image: url("../images/Cantor-atrium-4.jpg");
+}
+.pageimg#learning-resources{
+    background-image: url("../images/Cantor-atrium-4.jpg");
+}
+.pageimg#information-for-students{
+    background-image: url("../images/Cantor-atrium-4.jpg")
+}
+.pageimg#information-for-business{
+    background-image: url("../images/Cantor-atrium-4.jpg")
 }
 
 
@@ -140,11 +156,24 @@ div.grid > a.page > .pageimg{
     background-image: url("../images/20230829_111351.jpg");
 }
 .banner#courses{
-    background-image: url("../images/");
+    background-image: url("../images/cantor-lecture-theatre-3.jpg");
 }
 .banner#facilities{
-    background-image: url("../images/Cantor-Atrium-4.jpg");
+    background-image: url("../images/ACES-036-Computing-Playstation-Lab-2.jpg");
 }
+.banner#about-us{
+    background-image: url("../images/IMG_1089.jpeg");
+}
+.banner#learning-resources{
+    background-image: url("../images/learning-resources-banner.jpg");
+}
+.banner#information-for-business{
+    background-image: url("../images/info-for-business-banner.jpg");
+}
+.banner#information-for-students{
+    background-image: url("../images/info-for-students-banner.webp");
+}
+
 .banner > h1{
     background-color: #023047;
     color: white;
@@ -159,4 +188,35 @@ div.grid > a.page > .pageimg{
     padding: 0px;
     margin: 0px;
     font-family: helvetica, arial, sans-serif;
+}
+
+.container{
+    margin: 10px;
+  }
+.container p{
+    margin:10px;
+}
+.container h1{
+    color: white;
+    padding: 10px;
+    background-color: #023047;
+}
+.container ul{
+    padding: 16px 14px;
+    margin-left: 10px;
+}
+.container h2{
+    padding: 10px 
+}
+.container ul > li{
+    margin-left: 20px;
+}
+.list > ul{
+    list-style-type:upper-alpha;
+    padding: 10px;
+    margin-top: 10px;
+}
+.list > ul > ul{
+    list-style-type: lower-roman;
+    margin: 10px;
 }
