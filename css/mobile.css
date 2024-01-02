@@ -1,3 +1,5 @@
+
+/* NAVBAR*/
 .nav{
     overflow: hidden;
     background-color: #023047;
@@ -20,12 +22,15 @@
     
     right: 0;
     top: 0;
+
+    margin-top: 18px;
 }
 .active {
     background-color: #023047;
     color: white;
 }
 
+/* MENU ICON */
 .icon {
     display: inline-block;
     cursor: pointer;
@@ -37,6 +42,8 @@
     background-color: white;
     margin: 6px 0;
 }
+
+/* FOOTER */
 .footer{
     background-color: #023047;
 }
@@ -63,6 +70,59 @@ div.footer > p{
     padding: 14px, 2px;
 }
 
+/* GRID */
+div.grid{
+    width:90vw;
+    height:auto;
+    margin:5vw;
+    background-color: white;
+
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+div.grid > a.page{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    padding: 20px;
+    color: white;
+    background-color: #023047;
+    border-radius: 5%;
+    border-style: solid;
+    border-color: #d99c0d;
+    border-width: 5px;
+
+    text-decoration: none;
+}
+div.grid > a.page > .pageimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    width: 75%;
+    aspect-ratio: 1;
+}
+.pageimg#courses{
+    background-image: url("../images/cantor-lecture-theatre-3.jpg");
+}
+.pageimg#facilities{
+    background-image: url("../images/Cantor-atrium-4.jpg");
+}
+.pageimg#about-us{
+
+}
+
+
+
 .banner{
     width:100vw;
     height: 50vh;
@@ -86,7 +146,11 @@ div.footer > p{
     background-image: url("../images/Cantor-Atrium-4.jpg");
 }
 .banner > h1{
-    background-color: rgb(117, 117, 175);
+    background-color: #023047;
+    color: white;
+    border: solid;
+    border-radius: 5%;
+    border-color: #d99c0d;
     padding: 20px;
     text-align: center;
     margin: auto;
