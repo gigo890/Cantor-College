@@ -6,6 +6,10 @@
     position: relative; 
     display:flex;
 }
+.navlist{
+    display: flex;
+    flex-direction: column;
+}
 .nav #myLinks{
     display:none;
 }
@@ -15,15 +19,6 @@
     text-decoration: none;
     font-size: 17px;
     display: block;
-}
-.nav .menu {
-    background: #023047;
-    position: absolute;
-    
-    right: 0;
-    top: 0;
-
-    margin-top: 18px;
 }
 .home {
     background-color: #023047;
@@ -35,10 +30,17 @@
     display: inline-block;
     cursor: pointer;
     vertical-align: middle;
+    background: #023047;
+    position: absolute;
+    
+    right: 0;
+    top: 0;
+
+    margin: 30px 20px;
 }
 .bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
+    width: 49px;
+    height: 7px;
     background-color: white;
     margin: 6px 0;
 }
@@ -211,12 +213,12 @@ div.grid > a.page > .pageimg{
 .container ul > li{
     margin-left: 20px;
 }
-.list > ul{
+.list#learning-resources > ul{
     list-style-type:upper-alpha;
     padding: 10px;
     margin-top: 10px;
 }
-.list > ul > ul{
+.list#learning-resources > ul > ul{
     list-style-type: lower-roman;
     margin: 10px;
 }

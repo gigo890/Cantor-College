@@ -1,4 +1,4 @@
-.nav > ul {
+.nav > #myLinks {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -9,28 +9,25 @@
 .icon-container{
   display: none;
 }
+.navlist{
+  flex-direction: row !important;
+  display:inline-block;
+}
 .nav #myLinks{
-  display: inline-block !important;
+  display: inline !important;
   padding: 0;
   height: 100%;
-  margin-top: 25px;
-}
-#myLinks li{
-  
-  border-left: solid;
-  border-color: white;
-  border-width: 2px;
-}
-.nav > ul  li {
-  float: left;
+  margin-top: 35px;
 }
   
-.nav > ul > li > a {
-  display: block;
+#myLinks a {
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
+  
+  border-left: solid white 2px;
+  float: left;
 }
 
 .menu{

@@ -7,13 +7,15 @@
 </head>
 <body>
     <div class = "nav">
-        <ul>
-        <li><a href="index.php" class="home"><img src="images/logo.jpg" alt="college logo"></a></li>
-        <div id="myLinks">
-            <li><a href="courses.php">Courses</a></li>
-            <li><a href="facilities.php">Facilities</a></li>
-            <li><a href="about-us.php">About Us</a></li>
+        <div class="navlist">
+            <div><a href="index.php"><img src="images/logo.jpg" alt="College Logo"></a></div>
+            <div id="myLinks">
+                <a href="courses.php">Courses</a>
+                <a href="facilities.php">Facilities</a>
+                <a href="about-us.php">About Us</a>
+            </div>
         </div>
+        
         <div class="icon-container">
             <div href="javascript:void(0);" class="menu" alt="open menu" onclick ="myFunction()">
                 <div class="bar1"></div>
@@ -21,7 +23,6 @@
                 <div class="bar3"></div>
             </div>
         </div>
-        </ul>
     </div>
 </body>
 </html>

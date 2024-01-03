@@ -1,3 +1,4 @@
+<?php include("dbh.php");?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,6 +13,22 @@
     <div class = "banner" id = "courses">
         <h1>COURSES</h1>
     </div>
+
+    <div class="course-container">
+        <?php 
+            $sql = "SELECT * FROM coursesdbs";
+            $result = mysqli_query($conn, $sql);
+            $queryResults = mysqli_num_rows($result);
+
+            if($queryResults > 0){
+                while($row = mysqli_fetch_assoc($result)){
+                    echo "<div>
+                        <h3>".$row[]"
+                }
+            }
+        ?>
+    </div>
+
     <footer>
         <?php include("footer.php")?>
     </footer>

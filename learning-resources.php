@@ -23,7 +23,7 @@
                 <p>Use of Learning Resources facilities implies acceptance of the Learning Resources rules printed below.  These are designed to protect the interests of all users of Learning Resources and to ensure that the College operates within the law and can carry out its functions efficiently and effectively.  The Learning Resources rules apply in principle to all Learning Resources sites, including workstation rooms and site libraries, notwithstanding some variations in practice in the site libraries.  Admission to the Learning Resources is conditional upon observation of the rules and the staff of the Learning Resources are empowered to enforce them. </p>
                 <p>Breaches of the rules may be dealt with by specific Learning Resources Disciplinary Action (see below), including the withdrawal of some or all Learning Resources facilities, and if appropriate by invoking the College’s Regulations for Students, in the case of students, or in the case of staff through the appropriate College procedures as set out in the Staff Handbook. </p>
             </div>
-            <div class="list">
+            <div class="list" id="learning-resources">
                 <h2>Rules</h2>
                 <ul>
                     <li><h3>Access</h3></li>
